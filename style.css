@@ -1,0 +1,21 @@
+h1, h2{
+    font-family: 'Courier New', Courier, monospace;
+    color:rgb(117, 56, 12)
+}
+
+
+body{
+font-family:'Courier New', Courier, monospace;
+color: rgb(109, 109, 109);
+}
+
+h5 {
+    font-family: 'Courier New', Courier, monospace;
+    color:rgb(146, 95, 59)
+}
+
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    color:midnightblue
+}
