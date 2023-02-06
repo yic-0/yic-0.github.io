@@ -1,32 +1,63 @@
-h1, h2{
+/* formatting h1 */
+h1 {
     font-family: 'Courier New', Courier, monospace;
-    color:rgb(117, 56, 12)
+    color:rgb(16, 71, 41);
+    text-align: center;
+}
+/* formatting h1 pseudo-class on hover*/
+h1:hover{
+    color:rgba(26, 77, 60, 0.685);
 }
 
+/* formatting h2 */
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    color:rgb(117, 56, 12);
+    text-align: left;
+}
 
+/* formatting body */
 body{
 font-family:'Courier New', Courier, monospace;
 color: rgb(109, 109, 109);
+background: rgb(234, 241, 234);
+text-align: center;
 }
 
+/* formatting h5 */
 h5 {
     font-family: 'Courier New', Courier, monospace;
     color:rgb(146, 95, 59)
 }
 
-
-p {
-    font-family: 'Courier New', Courier, monospace;
-    color:midnightblue
-}
-
-
+/* formatting paragraph */
 p {
     font-family: 'Courier New', Courier, monospace;
     color:rgb(19, 11, 87);
     font-size: medium;
 }
 
+/* formatting link hover click color */
+a:hover {
+    color: teal;
+}
+
+
+/* formatting footer */
+footer {
+    font-family:monospace;
+    font-size: smaller;
+    text-align: left;
+    text-decoration:wavy;
+}
+
+/* add padding and margin to article */
+article {
+    padding: 10%;
+    margin: auto;
+}
+
+ol,ul{text-align: left;}
 
 
 /* 
